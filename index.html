@@ -30,136 +30,27 @@
     
         <nav class="nav">
             <a href="Campaigns.html" class="nav-item">ক্যাশপইন</a>
-            <button class="nav-item dropdown" id="servicesButton">
-                সার্ভিসেস
-            </button>
+           
             <a href="business.html" class="nav-item active">বিজনেস</a>
-            <a href="#" class="nav-item dropdown">হেল্প</a>
-            <a href="#" class="nav-item">ক্যারিয়ার</a>
-            <a href="#" class="nav-item">পরিচিতি</a>
+            <a href="help.html" class="nav-item dropdown">হেল্প</a>
+            <a href="career.html" class="nav-item">ক্যারিয়ার</a>
+            <a href="identity.html" class="nav-item">পরিচিতি</a>
             <a href="#" class="nav-item">ব্লগ</a>
             <a href="#" class="nav-item">স্টুডেন্ট</a>
             <button class="app-btn">বিকাশ অ্যাপ</button>
         </nav>
     
         <div class="right-nav">
-            <div class="language">
-                <span class="lang-btn active-lang">Eng</span>
-                <span class="separator">|</span>
-                <span class="lang-btn">বাংলা</span>
-            </div>
+            <button class="login-btn" id="loginButton">লগইন</button>
+            <!-- <a href="javascript:void(0);" class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </a> -->
         </div>
+        
     </header>
 
 
-    <!-- Services Dropdown Menu -->
-    <div class="dropdown-menu" id="servicesMenu">
-        <div class="service-grid">
-            <!-- Row 1 -->
-            <a href="sendMoney.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image1.png" alt="সেন্ড মানি">
-                </div>
-                <div class="service-name">সেন্ড মানি</div>
-            </a>
-            <a href="recharge.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image2.png" alt="মোবাইল রিচার্জ">
-                </div>
-                <div class="service-name">মোবাইল রিচার্জ</div>
-            </a>
-            <a href="payment.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image3.png" alt="পেমেন্ট">
-                </div>
-                <div class="service-name">পেমেন্ট</div>
-            </a>
-            <a href="cashOut.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image4.png" alt="ক্যাশ আউট">
-                </div>
-                <div class="service-name">ক্যাশ আউট</div>
-            </a>
-
-            <!-- Row 2 -->
-            <a href="bkashBundle.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image8.png" alt="বিকাশ সার্ভিসেস">
-                </div>
-                <div class="service-name">বিকাশ বান্ডেল</div>
-            </a>
-            <a href="addMoney.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image5.png" alt="অ্যাড মানি">
-                </div>
-                <div class="service-name">অ্যাড মানি</div>
-            </a>
-            <a href="payBills.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image6.png" alt="পে বিল">
-                </div>
-                <div class="service-name">পে বিল</div>
-            </a>
-            <a href="savings.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image7.png" alt="সেভিংস">
-                </div>
-                <div class="service-name">সেভিংস</div>
-            </a>
-
-            <!-- Row 3 -->
-            <a href="loan.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image9.png" alt="লোন">
-                </div>
-                <div class="service-name">লোন</div>
-            </a>
-            <a href="bkashToBank.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image10.png" alt="বিকাশ টু ব্যাংক">
-                </div>
-                <div class="service-name">বিকাশ টু ব্যাংক</div>
-            </a>
-            <a href="requestMoney.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image11.png" alt="রিকোয়েস্ট মানি">
-                </div>
-                <div class="service-name">রিকোয়েস্ট মানি</div>
-            </a>
-            <a href="remittance.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image12.png" alt="রেমিটেন্স">
-                </div>
-                <div class="service-name">রেমিটেন্স</div>
-            </a>
-
-            <!-- Row 4 -->
-            <a href="microfinance.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image16.png" alt="মাইক্রোফাইন্যান্স">
-                </div>
-                <div class="service-name">মাইক্রোফাইন্যান্স</div>
-            </a>
-            <a href="education.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image15.png" alt="এডুকেশন ফি">
-                </div>
-                <div class="service-name">এডুকেশন ফি</div>
-            </a>
-            <a href="donation.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image13.png" alt="ডোনেশন">
-                </div>
-                <div class="service-name">ডোনেশন</div>
-            </a>
-            <a href="insurance.html" class="service-item">
-                <div class="service-icon">
-                    <img src="/public/images/icons/image14.png" alt="ই-ভ্যালোপ">
-                </div>
-                <div class="service-name">ইন্স্যুরেন্স</div>
-            </a>
-        </div>
-    </div>
+    
 
     <!-- Rest of the HTML remains the same -->
     <!-- Hero Banner Slider -->
@@ -172,7 +63,7 @@
                         <div class="hero-banner">
                             <div class="banner-content">
                                 <div class="banner-image">
-                                    <img src="/public/images/services/slider1.png" alt="বিকাশ ঈদ পেমেন্ট">
+                                    <img src="/images/services/slider1.png" alt="বিকাশ ঈদ পেমেন্ট">
                                 </div>
                                 <div class="banner-text-wrapper">
                                     <div class="banner-text-container">
@@ -191,7 +82,7 @@
                         <div class="hero-banner">
                             <div class="banner-content">
                                 <div class="banner-image">
-                                    <img src="/public/images/services/slider2.png" alt="বিকাশ অ্যাপে ডিপিএস">
+                                    <img src="/images/services/slider2.png" alt="বিকাশ অ্যাপে ডিপিএস">
                                 </div>
                                 <div class="banner-text-wrapper">
                                     <div class="banner-text-container">
@@ -210,7 +101,7 @@
                         <div class="hero-banner">
                             <div class="banner-content">
                                 <div class="banner-image">
-                                    <img src="/public/images/services/slider3.png" alt="বিকাশ বিল পেমেন্ট">
+                                    <img src="/images/services/slider3.png" alt="বিকাশ বিল পেমেন্ট">
                                 </div>
                                 <div class="banner-text-wrapper">
                                     <div class="banner-text-container">
@@ -229,7 +120,7 @@
                         <div class="hero-banner">
                             <div class="banner-content">
                                 <div class="banner-image">
-                                    <img src="/public/images/services/slider4.png" alt="বিকাশ ক্যাশ আউট">
+                                    <img src="/images/services/slider4.png" alt="বিকাশ ক্যাশ আউট">
                                 </div>
                                 <div class="banner-text-wrapper">
                                     <div class="banner-text-container">
@@ -248,7 +139,7 @@
                         <div class="hero-banner">
                             <div class="banner-content">
                                 <div class="banner-image">
-                                    <img src="/public/images/services/slider5.png" alt="বিকাশ নিরাপত্তা">
+                                    <img src="/images/services/slider5.png" alt="বিকাশ নিরাপত্তা">
                                 </div>
                                 <div class="banner-text-wrapper">
                                     <div class="banner-text-container">
